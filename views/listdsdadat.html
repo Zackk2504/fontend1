@@ -1,0 +1,32 @@
+<div>
+    <div class="container ">
+        <div>
+           
+            <table class="table table-light table-bordered  ">
+                <thead>
+                    <th>STT</th>
+                    <th>Khách sạn</th>
+                    <th>Họ và tên</th>
+                    <th>Số lượng phòng</th>
+                    
+                </thead>
+                <tr ng-repeat="item in listController">
+                    <td>{{ $index+1}}</td>
+                    <td>{{item.khachSan}}</td>
+                    <td>{{item.hoTen}}</td>
+                    <td>{{item.soPhong}}</td>
+                    <td>
+                       <div class="text-center">
+                        <a href="#!/chitiet/{{item.id}}">
+                            <button class="btn btn-warning">Chi tiết</button>
+                        </a>
+                        <a href="#!/edit/{{item.id}}"><button class="btn btn-danger">Chỉnh sửa</button></a>
+                    
+                    <button type="button" class="btn btn-danger " ng-click="delete(item.id)">Xóa</button>
+                       </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>

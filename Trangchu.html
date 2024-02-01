@@ -10,11 +10,11 @@
   <!-- Bootstrap CSS v5.2.1 -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
-  <link rel="stylesheet" href="/assi/css.css">
+  <link rel="stylesheet" href="/css.css">
 
 </head>
 
-<body>
+<body ng-app="appRoute">
   <header>
     <div class="head1">
       <div class="thongtin1">
@@ -26,7 +26,7 @@
         <h5>19002504</h5>
       </div>
 
-      <img src="/assi/images/OIG-removebg-preview.png" alt="" height="170px" width="170px">
+      <img src="/images/OIG-removebg-preview.png" alt="" height="170px" width="170px">
 
 
       <div class="thongtin">
@@ -44,7 +44,7 @@
   <div class="">
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#" id="noidung2">𝓒𝗹o̥̊ᵘ🄳🎋</a>
+        <a class="navbar-brand" href="#!/trangchu" id="noidung2">𝓒𝗹o̥̊ᵘ🄳🎋</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -52,17 +52,17 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#" id="noidung1">𝕲𝖎𝖔̛́𝖎
+              <a class="nav-link active" aria-current="page" href="#!/gioithieu" onclick="scrollToTarget()">𝕲𝖎𝖔̛́𝖎
                 𝖙𝖍𝖎𝖊̣̂𝖚</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#" id="changeContentLink">𝓛𝓲𝓮̂𝓷 𝓱𝓮̣̂</a>
+              <a class="nav-link" href="#!/lienhe" id="changeContentLink">𝓛𝓲𝓮̂𝓷 𝓱𝓮̣̂</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#" id="noidung3">𝕯̄𝖆̣̆𝖙 𝖕𝖍𝖔̀𝖓𝖌</a>
+              <a class="nav-link" href="#!/datphong" id="noidung3">𝕯̄𝖆̣̆𝖙 𝖕𝖍𝖔̀𝖓𝖌</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              <a class="nav-link " href="#!/Danhsachdat">Danh sách đặt phòng</a>
             </li>
           </ul>
         </div>
@@ -70,90 +70,9 @@
     </nav>
   </div>
 
-  <div class="noiDung" id="noidung">
-    <div class="sildebar">
-      <div id="carouselExampleIndicators" class="carousel slide">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-            aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-            aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-            aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="/assi/images/pngtree-anime-girl-with-red-eyes-image_2694423.jpg" class="d-block w-100 h-95"
-              alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="/assi/images/maxresdefault.jpg" class="d-block w-100 h-95" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="/assi/images/anh-nen-anime-dep_095240141.jpg" class="d-block w-100 h-95" alt="...">
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-          data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-          data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-    </div>
+  <main ng-view >
 
-
-
-    <main>
-      <div class="gioithieu" id="scrollTarget">
-        <h1>⛽ℹ️🅾️̛́ℹ️ 🌴♓ℹ️📧̣̂⛎</h1>
-      </div>
-
-      <div class="container row">
-        <div class="col border-end">
-          <h4>Thương hiệu</h4>
-
-          <div class="anh1">
-            <img src="/assi/images/khach-san-4.jpg" alt="">
-            <div class="overlay">
-              <p>Nội dung hiển thị khi di chuột vào</p>
-            </div>
-          </div>
-
-        </div>
-
-        <div class="col border-end">
-          <h4>Dịch vụ</h4>
-
-          <div class="anh2">
-            <img src="/assi/images/1f8ca501d5d6347eeb8a49947a1a4e8f.png" alt="">
-            <div class="overlay">
-              <p>Nội dung hiển thị khi di chuột vào</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col border-end">
-          <h4>Điểm đến</h4>
-
-          <div class="anh3">
-            <img src="/assi/images/doubletree-by-hilton-5775bd815f9b585875db9b70.jpg" alt="">
-            <div class="overlay">
-              <p>Nội dung hiển thị khi di chuột vào</p>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-
-
-    </main>
-  </div>
+  </main>
 
 
   <hr>
@@ -189,18 +108,18 @@
         <h3>Về CloudK</h3>
         <div class="vecloudk">
           <p>Tải ứng dụng ngay</p>
-          <img src="/assi/images/Screenshot 2024-01-15 184302.png" alt="">
+          <img src="/images/Screenshot 2024-01-15 184302.png" alt="">
         </div>
       </div>
       <div class="col">
         <h3>Thanh toán</h3>
         <div class="logo">
-          <img src="/assi/images/1.png" alt="">
-          <img src="/assi/images/2c46b83d84111ddc32cfd3b5995d9281.png" alt="">
-          <img src="/assi/images/38fd98e55806c3b2e4535c4e4a6c4c08.png" alt="">
-          <img src="/assi/images/a0a9062ebe19b45c1ae0506f16af5c16.png" alt="">
-          <img src="/assi/images/bc2a874caeee705449c164be385b796c.png" alt="">
-          <img src="/assi/images/d4bbea4570b93bfd5fc652ca82a262a8.png" alt="">
+          <img src="/images/1.png" alt="">
+          <img src="/images/2c46b83d84111ddc32cfd3b5995d9281.png" alt="">
+          <img src="/images/38fd98e55806c3b2e4535c4e4a6c4c08.png" alt="">
+          <img src="/images/a0a9062ebe19b45c1ae0506f16af5c16.png" alt="">
+          <img src="/images/bc2a874caeee705449c164be385b796c.png" alt="">
+          <img src="/images/d4bbea4570b93bfd5fc652ca82a262a8.png" alt="">
 
 
 
@@ -224,7 +143,70 @@
     integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
     crossorigin="anonymous"></script>
 
-  <script src="/assi/js.js"></script>
+  <script src="/js.js"></script>
+  <script src="lib/angular.min.js"></script>
+  <script src="lib/angular-route.js"></script>
+<script src="/controller/listController.js"></script>
+<script src="/controller/addController.js"></script>
+<script src="/controller/detailController.js"></script>
+<script src="/controller/editController.js"></script>
+
+  <script>
+    let myApp = angular.module('appRoute',['ngRoute']);
+
+    myApp.config(function($routeProvider){
+      $routeProvider
+      .when(
+        '/trangchu',{
+          templateUrl : '/gioithieu.html',
+          
+        }
+      )
+      .when(
+        '/gioithieu',{
+          templateUrl : '/gioithieu.html',
+          
+        }
+      )
+      .when(
+        '/lienhe',{
+          templateUrl : '/lienhe.html',
+          
+        }
+      )
+      .when(
+        '/datphong',{
+          templateUrl : '/datphong.html',
+          controller: addController
+        }
+      )
+      .when(
+        '/Danhsachdat',{
+          templateUrl : '/views/listdsdadat.html',
+          controller: listController
+        }
+      )
+      .when(
+        '/chitiet/:id',{
+          templateUrl : 'views/chitiet.html',
+          controller: detailController
+        }
+      )
+      .when(
+        '/edit/:id',{
+          templateUrl : 'views/edit.html',
+          controller: editController
+        }
+      )
+      .otherwise(
+                {
+                  redirectTo:'/gioithieu'
+                }
+              )
+    })
+  </script>
+
+
 </body>
 
 </html>

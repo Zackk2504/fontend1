@@ -1,0 +1,44 @@
+{
+  "users": [
+    {
+      "khachSan": "cloudK Hà Nội",
+      "ngayNhan": "05/05/2024",
+      "ngaytra": "05/07/2024",
+      "hoTen": "knk",
+      "soPhong": "22",
+      "sdt": "0904293293",
+      "email": "iodajssio@gmail.com",
+      "id": "223"
+    },
+    {
+      "khachSan": "2",
+      "ngayNhan": "2024-01-10T17:00:00.000Z",
+      "ngaytra": "2024-01-09T17:00:00.000Z",
+      "hoTen": "23",
+      "soPhong": "3",
+      "sdt": "23",
+      "email": "khuongtmph36359@fpt.edu.vn",
+      "id": "f923"
+    },
+    {
+      "khachSan": "Cloudk Thanh Hóa",
+      "ngayNhan": "2024-01-17T17:00:00.000Z",
+      "ngaytra": "2024-01-18T17:00:00.000Z",
+      "hoTen": "23",
+      "soPhong": "23",
+      "sdt": "23",
+      "email": "khuongtmph36359@fpt.edu.vn",
+      "id": "2687"
+    },
+    {
+      "id": "1f60",
+      "khachSan": "Cloudk Nam Định",
+      "ngayNhan": "2024-01-02T17:00:00.000Z",
+      "ngaytra": "2024-01-09T17:00:00.000Z",
+      "hoTen": "23",
+      "soPhong": "2",
+      "sdt": "23",
+      "email": "khuongtmph36359@fpt.edu.vn"
+    }
+  ]
+}

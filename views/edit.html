@@ -1,0 +1,39 @@
+<div class="container">
+   
+    <div>
+       <form ng-submit="editUser()">
+        <label for="floatingSelect">Chọn khách sạn/ Điểm đến</label>
+        <!-- <select class="form-select" id="floatingSelect" aria-label="e" ng-model="edit.nameks">
+            <option value="Cloudk Hà Nội">Cloudk Hà Nội</option>
+            <option value="Cloudk Thanh Hóa">Cloudk Thanh Hóa</option>
+            <option value="Cloudk Nam Định">Cloudk Nam Định</option>
+        </select> -->
+        <input type="text" class="form-control" ng-model="edit.nameks" >
+
+
+            <label for="" class="form-label">Ngày nhận</label>
+            <input type="text" class="form-control" ng-model="edit.nn" >
+           
+            <label for="" class="form-label">Ngày trả</label>
+            <input type="text" class="form-control" ng-model="edit.nt">
+
+            <label for="" class="form-label">Họ và tên</label>
+            <input type="text" class="form-control" ng-model="edit.name" >
+
+            <label for="" class="form-label">Số phòng</label>
+            <input type="text" class="form-control" ng-model="edit.sp" >
+
+            <label for="" class="form-label">Số điện thoại</label>
+            <input type="text" class="form-control" ng-model="edit.sdt" >
+
+            <label for="" class="form-label">email</label>
+            <input type="text" class="form-control" ng-model="edit.em" >
+           
+            <div class="text-center mt-3">
+                <button type="reset" class="btn btn-success">reset</button>
+                <button class="btn btn-secondary">Chỉnh sửa</button>
+            </div>
+       </form>
+       
+    </div>
+</div>
